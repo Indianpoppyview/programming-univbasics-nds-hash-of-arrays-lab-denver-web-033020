@@ -7,8 +7,7 @@ BASE_HOA = {
 
 def add_character(show, name)
   BASE_HOA[show] << name 
-  BASE_HOA[:third_earthers] << "snarf"
-  BASE_HOA[:jetsons] << "Astro"
+  BASE_HOA
   # Write your implementation here
   # Should return the array of the 'show' argument
 end
